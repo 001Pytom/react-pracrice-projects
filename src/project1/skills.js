@@ -3,38 +3,38 @@ const skills = [
     id: 1,
     skill: "HTML+CSS",
     icon: "💪",
-    color: "blue",
+    color: "#51e2f5",
   },
   {
     id: 2,
     skill: "JavaScript",
     icon: "💪",
-    color: "yellow",
+    color: "#9df9ef",
   },
   {
     id: 3,
     skill: "Web Design",
     icon: "👍",
-    color: "green",
+    color: "#edf756",
   },
   {
     id: 4,
     skill: "Git and GitHub",
     icon: "👍",
-    color: "red",
+    color: "#ffa8B6",
   },
   {
     id: 5,
     skill: "React",
     icon: "💪",
-    color: "blue",
+    color: "#a28089",
   },
 
   {
     id: 6,
-    skill: "Svelte",
-    icon: "👶",
-    color: "red",
+    skill: "Python",
+    icon: "🐍",
+    color: "#d0bdf4",
   },
 ];
 
