@@ -14,12 +14,7 @@ function App() {
 
         <div className="skill-list">
           {skills.map((skill) => (
-            <SkillList
-              key={skill.id}
-              skill={skill.skill}
-              icon={skill.icon}
-              color={skill.color}
-            />
+            <SkillList key={skill.id} skillObj={skill} />
           ))}
         </div>
       </div>

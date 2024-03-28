@@ -1,10 +1,14 @@
-function SkillList(props) {
-  const skillColor = { backgroundColor: props.color };
+function SkillList({ skillObj }) {
+  const skillColor = { backgroundColor: skillObj.color };
 
   return (
     <div className="skill" style={skillColor}>
-      <p>{props.skill}</p>
-      <span>{props.icon}</span>
+      <p>{skillObj.skill}</p>
+      <span>
+        {skillObj.level === "beginner" && "👧"}
+        {skillObj.level === "intermediate" && "👍"}
+        {skillObj.level === "advanced" && "💪"}
+      </span>
     </div>
   );
 }

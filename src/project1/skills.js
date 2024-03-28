@@ -2,32 +2,32 @@ const skills = [
   {
     id: 1,
     skill: "HTML+CSS",
-    icon: "💪",
     color: "#51e2f5",
+    level: "advanced",
   },
   {
     id: 2,
     skill: "JavaScript",
-    icon: "💪",
     color: "#9df9ef",
+    level: "advanced",
   },
   {
     id: 3,
     skill: "Web Design",
-    icon: "👍",
     color: "#edf756",
+    level: "advanced",
   },
   {
     id: 4,
     skill: "Git and GitHub",
-    icon: "👍",
     color: "#ffa8B6",
+    level: "intermediate",
   },
   {
     id: 5,
     skill: "React",
-    icon: "💪",
     color: "#a28089",
+    level: "beginner",
   },
 
   {
@@ -35,6 +35,7 @@ const skills = [
     skill: "Python",
     icon: "🐍",
     color: "#d0bdf4",
+    level: "advanced",
   },
 ];
 
