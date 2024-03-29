@@ -23,26 +23,26 @@ import React, { useState } from "react";
 // }
 
 // project2 date counter
-// import Counter from "./project2/Counter";
-// function App() {
-//   return <Counter />;
-// }
+import Counter from "./project2/Counter";
+function App() {
+  return <Counter />;
+}
 
 // exercise Flashcards
-import "./styles.css";
-import FlashCards from "./exercise/Flashcrads";
-import questions from "./exercise/questions";
+// import "./styles.css";
+// import FlashCards from "./exercise/Flashcrads";
+// import questions from "./exercise/questions";
 
-function App() {
-  return (
-    <div className="App">
-      <div className="flashcards">
-        {questions.map((question) => (
-          <FlashCards question={question} key={question.id} />
-        ))}
-      </div>
-    </div>
-  );
-}
+// function App() {
+//   return (
+//     <div className="App">
+//       <div className="flashcards">
+//         {questions.map((question) => (
+//           <FlashCards question={question} key={question.id} />
+//         ))}
+//       </div>
+//     </div>
+//   );
+// }
 
 export default App;

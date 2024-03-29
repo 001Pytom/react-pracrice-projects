@@ -13,23 +13,32 @@ function Counter() {
   function handlePrev() {
     setCount((count) => count - step);
   }
-  function handleStpnext() {
-    setStep((step) => step + 1);
-  }
-  function handleStpPrev() {
-    setStep((step) => step - 1);
-  }
+  // function handleStpnext() {
+  //   setStep((step) => step + 1);
+  // }
+  // function handleStpPrev() {
+  //   setStep((step) => step - 1);
+  // }
 
   return (
     <div className="container">
       <div className="step">
-        <button onClick={handleStpPrev}>-</button>
+        <input
+          type="range"
+          min="0"
+          max="10"
+          value={step}
+          onChange={(e) => setStep(Number(e.target.value))}
+        />
         <span> Step: {step}</span>
-        <button onClick={handleStpnext}>+</button>
       </div>
       <div className="count">
         <button onClick={handlePrev}>-</button>
-        <span> Count: {count}</span>
+        <input
+          type="number"
+          value={count}
+          onChange={(e) => setCount(Number(e.target.value))}
+        />
         <button onClick={handleNext}>+</button>
       </div>
       <p>
