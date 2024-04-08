@@ -23,10 +23,10 @@ import React, { useState } from "react";
 // }
 
 // project2 date counter
-import Counter from "./project2/Counter";
-function App() {
-  return <Counter />;
-}
+// import Counter from "./project2/Counter";
+// function App() {
+//   return <Counter />;
+// }
 
 // exercise Flashcards
 // import "./styles.css";
@@ -45,4 +45,25 @@ function App() {
 //   );
 // }
 
+// ptojectt 3
+
+// accordion component
+// import Accordion from "./exerciseAccordion/Accordion";
+// import faqs from "./exerciseAccordion/Faqs";
+// function App() {
+//   return (
+//     <div>
+//       <Accordion data={faqs} />
+//     </div>
+//   );
+// }
+
+import TipCalc from "./project3/TipCalc";
+function App() {
+  return (
+    <div>
+      <TipCalc />
+    </div>
+  );
+}
 export default App;
