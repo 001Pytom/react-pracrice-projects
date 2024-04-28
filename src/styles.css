@@ -194,7 +194,7 @@ OPEN STATE
   color: #087f5b;
 } */
 
-* {
+/* * {
   padding: 0;
   margin: 0;
 }
@@ -208,4 +208,10 @@ body {
   border: 1px solid #ccc;
   border-radius: 7px;
   background-color: #f7f7f7;
+} */
+
+/* geolocation projetc */
+.App {
+  font-family: sans-serif;
+  text-align: center;
 }
