@@ -211,7 +211,32 @@ body {
 } */
 
 /* geolocation projetc */
-.App {
+/* .App {
   font-family: sans-serif;
   text-align: center;
+} */
+
+/* pokeman */
+/* index.css */
+.card {
+  width: 200px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  margin: 0;
+}
+
+.card p {
+  margin: 5px 0;
 }
